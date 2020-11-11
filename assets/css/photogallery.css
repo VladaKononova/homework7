@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.container {
+    width: 70vw;
+    margin: 0px auto;
+    padding: 0px 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 960px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+ul {
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    
+}
+
+ul > li {
+    margin: 8px;
+}
+
+ul > li:first-child {
+    margin-right: auto;
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.header {
+    color: gray;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 20px;
+    color: gray;
+}
+
+span .first {
+    color: black;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.text {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img + p {
+    text-align: center;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+}
+
+.component {
+    border: 1px solid gray;
+    box-shadow: 0px 0px 8px gray;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo > .foto {
+    flex-basis: calc(100%/3);
+    padding: 8px;
+}
+
+img {
+    border: 1px solid gray;
+    width: 100%;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.readmore {
+    color: gray;
+    font-weight: bold;
+}
+
+.stars {
+    color: rgb(255, 208, 0);
+    text-align: center;
+    margin: 20px;
+}
+
+.fotofooter {
+    background-color:rgb(24, 23, 23);
+	color: rgb(194, 189, 189);
+	display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
